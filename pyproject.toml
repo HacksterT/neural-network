@@ -1,0 +1,18 @@
+[project]
+name = "neural-network"
+version = "0.1.0"
+description = "Neural-network binary classification (bank churn) evaluated to a clinical-research standard"
+requires-python = ">=3.13"
+dependencies = [
+    "tensorflow>=2.18",
+    "keras>=3.8",
+    "scikit-learn>=1.6",
+    "scipy>=1.14",
+    "imbalanced-learn>=0.13",
+    "seaborn>=0.13",
+    "matplotlib>=3.9",
+    "pandas>=2.2",
+    "numpy>=2.1",
+    "ipykernel>=6.29",
+    "jupyterlab>=4.2",
+]
